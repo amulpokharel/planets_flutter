@@ -9,7 +9,9 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: <Widget>[
-          GradientAppBar("treva"),
+          GradientAppBar("The Bar"),
+          HomePageBody(),
+          HomePageBody(),
           HomePageBody(),
         ],
       ),
